@@ -1,0 +1,9 @@
+- link:
+    ~/.zshrc: zshrc
+
+- shell:
+    -
+        command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+        description: Install zsh-autosuggestions 
+        stdin: true
+        stdout: true

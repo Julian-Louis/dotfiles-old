@@ -6,3 +6,8 @@
         description: Install core dotfiles
         stdin: true
         stdout: true
+    -
+        command: ./install -c install.conf.omz.yaml
+        description: Install core dotfiles
+        stdin: true
+        stdout: true
