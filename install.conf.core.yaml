@@ -1,6 +1,3 @@
-- link:
-    ~/.zshrc: zshrc
-
 - shell:
     -
         command: sudo apk add zsh-vcs
