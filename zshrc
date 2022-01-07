@@ -101,3 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias da="docker-compose exec app"
 alias c="clear"
+alias docker-build="eval `ssh-agent -s` && ssh-add ~/.ssh/id_rsa && ./docker-build.sh && dcupd"
