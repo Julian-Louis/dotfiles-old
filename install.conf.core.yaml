@@ -9,6 +9,11 @@
         stdout: true
     -
         command: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-        description: Install zsh
+        description: Install ohmyzsh
+        stdin: true
+        stdout: true
+    -
+        command: echo "exec zsh" > ~/.bashrc
+        description: Set zsh as default shell
         stdin: true
         stdout: true
