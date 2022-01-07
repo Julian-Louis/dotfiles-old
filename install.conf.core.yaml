@@ -3,6 +3,11 @@
 
 - shell:
     -
+        command: sudo apk add zsh-vcs
+        description: Install zsh-vsc 
+        stdin: true
+        stdout: true
+    -
         command: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
         description: Install zsh
         stdin: true
