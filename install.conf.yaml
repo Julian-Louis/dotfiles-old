@@ -1,0 +1,8 @@
+- clean: ['~']
+
+- shell:
+    -
+        command: ./install -c install.conf.core.yaml
+        description: Install core dotfiles
+        stdin: true
+        stdout: true
