@@ -9,8 +9,3 @@
         description: Install ohmyzsh
         stdin: true
         stdout: true
-    -
-        command: sed -i '1 i\exec zsh' ~/.config/fish/config.fish
-        description: Set zsh as default shell
-        stdin: true
-        stdout: true
