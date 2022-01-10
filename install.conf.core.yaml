@@ -10,7 +10,7 @@
         stdin: true
         stdout: true
     -
-        command: echo "exec zsh" > ~/.bashrc
+        command: chsh --shell /bin/zsh $USER
         description: Set zsh as default shell
         stdin: true
         stdout: true
