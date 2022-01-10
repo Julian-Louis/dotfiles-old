@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias da="docker compose exec app"
+alias da="docker compose exec app php artisan"
 alias c="clear"
 
 docker-build () {
